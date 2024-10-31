@@ -1,13 +1,79 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>DocumentAção</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-    
-    
+    <header>
+        <nav>
+            <ul class="nav-left">
+                <li><a href="#" id="logo">DocumentAção</a></li>
+            </ul>
+            <ul class="nav-right">
+                <li><a href="#">Cadastre-se</a></li>
+                <li><a href="#">Login</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h1>Criar documentações nunca foi tão fácil</h1>
+            <div class="container" id="primeiro">
+                <h2>Crie sua conta e aperte play!</h2>
+                <h3>Simples assim!</h3>
+                <a href="#"><img src="#" alt="Ícone de um play e um documento escrito"></a>
+            </div>
+        </section>
+
+        <section class="feature" id="feature-voice">
+            <h2>Faça a geração de textos e documentos a partir da sua voz</h2>
+            <div class="container">
+                <h3>Foque no que realmente importa.</h3>
+                <img src="#" alt="Imagem representando reunião ou microfone">
+            </div>
+        </section>
+
+        <section class="feature" id="feature-convenience">
+            <h2>Você não sabia que precisava. Até conhecer!</h2>
+            <h3>Esqueça passar horas escrevendo e documentando seu projeto</h3>
+            <div class="container">
+                <h3>Construa documentos para seu produto com apenas um clique</h3>
+                <p>Facilite a sua vida e do seu time criando documentações para projetos e atas de reuniões de forma intuitiva.</p>
+            </div>
+        </section>
+
+        <section class="feature" id="feature-indexed">
+            <h3>Documentos parametrizados e indexados</h3>
+            <p>Muito mais que um simples conversor de voz para texto</p>
+            <img src="#" alt="Imagem representando um documento">
+        </section>
+
+        <section class="action" id="acao">
+            <h1>Transcrição de Áudio</h1>
+            <div class="controls">
+                <button id="start-button">Iniciar Gravação</button>
+                <button id="stop-button" disabled>Parar Gravação</button>
+            </div>
+            <textarea id="transcript" rows="10" cols="50" placeholder="Texto transcrito aparecerá aqui..."></textarea>
+        </section>
+    </main>
+
+    <footer>
+        <nav class="footer-nav">
+            <ul>
+                <li><a href="#">Mais informações</a></li>
+                <li><a href="#">Quem somos</a></li>
+                <li><a href="#">Política</a></li>
+                <li><a href="#">Privacidade</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
